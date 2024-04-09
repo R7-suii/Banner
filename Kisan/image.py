@@ -1,6 +1,6 @@
 import requests
 from requests import get 
-from BABYSHARK import app
+from Kisan import app
 from pyrogram import filters
 from pyrogram.types import InputMediaPhoto
 
