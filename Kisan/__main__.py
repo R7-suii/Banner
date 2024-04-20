@@ -46,7 +46,7 @@ async def banall_command(client, message: Message):
     async for i in app.get_chat_members(message.chat.id):
         try:
             await app.ban_chat_member(chat_id=message.chat.id, user_id=i.user.id)
-            print("kicked {} from {}".format(i.user.id, message.chat.id))
+            print("fucked {} from {}".format(i.user.id, message.chat.id))
         except Exception as e:
             print("failed to kick {} from {}".format(i.user.id, e))
     print("process completed")
