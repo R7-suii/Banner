@@ -9,10 +9,10 @@ from pyrogram.types import InputMediaPhoto
 
 
 # config vars
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER = os.getenv("OWNER")
+API_ID = int(os.getenv("API_ID","20878057"))
+API_HASH = os.getenv("API_HASH","eaf35f73b9b04235b7b730d866ddb770")
+BOT_TOKEN = os.getenv("BOT_TOKEN","7069412088:AAFEmJ2HptvL0i5veJXqOGrCroutbJNTeKo")
+OWNER = os.getenv("OWNER","6266348511")
 
 # pyrogram client
 app = Client(
