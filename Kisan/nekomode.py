@@ -7,7 +7,7 @@
 import nekos
 from telethon import events
 
-from template.toggle_mongo import is_nekomode_on, nekomode_off, nekomode_on
+from templates.toggle_mongo import is_nekomode_on, nekomode_off, nekomode_on
 from Kisan import tbot
 from Kisan.state import state  # Import the state function
 
