@@ -12,3 +12,4 @@ uvicorn
 Flask
 Gunicorn
 fake_useragent
+aiohttp==3.9.5
